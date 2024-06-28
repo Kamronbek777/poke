@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(33, 37, 41);
+}
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.pokemon-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: yellow;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 380px;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+.id {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    top: 0;
+    right: 0;
+    padding: 5px;
+}
+.spawn {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: aqua;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    color: black;
+}
+.name {
+    position: absolute;
+    top: 40px;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+.type {
+    font-size: 20px;
+    font-weight: 200;
+    background-color: rgb(98, 227, 234);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+}
+.weight {
+    padding-top: 10px;
+}
+.weaknesses {
+    padding-top: 20px;
+    color: blueviolet;
+}
+input {
+    margin-left: 200px;
+    margin-top: 40px;
+    width: 200px;
+    height: 30px;
+}
